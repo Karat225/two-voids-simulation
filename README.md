@@ -17,7 +17,7 @@ The model is based on two fundamental principles: rupture (active) and contracti
 
 Click the button below to open and run the simulation directly in your browser — no installation required.
 
-[[![Open in Colab][https://colab.research.google.com/github/karat225/two-voids-simulation/blob/main/5000000.ipynb]
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/karat225/two-voids-simulation/blob/main/5000000.ipynb)
 
 ## Requirements (for local run)
 
