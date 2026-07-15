@@ -1,3 +1,4 @@
+markdown
 # Two Voids Model — Simulation
 
 ## About
@@ -12,35 +13,42 @@ The model is based on two fundamental principles: rupture (active) and contracti
 - **Mass spectrum** of 14 Standard Model particles reproduced with <15% deviation.
 - **Fundamental constant α = 1.0663** derived from the geometry of the graph.
 
-## Requirements
+## Quick Start (Google Colab)
+
+Click the button below to open and run the simulation directly in your browser — no installation required.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/karat225/two-voids-simulation/blob/main/your-notebook.ipynb)
+
+## Requirements (for local run)
 
 - Python 3.8+
 - NumPy
-
-Install dependencies:
 pip install numpy
+
+text
 
 ## Files
 
-- `simulation.py` — Main simulation script (growing causal graph with phase and direction inheritance).
-- `analysis.py` — Dimensionality measurement (BFS) and mass spectrum extraction.
-- `config.py` — Simulation parameters (R, sigma_base, etc.).
+- `your-notebook.ipynb` — Main Colab notebook with the full simulation, analysis, and visualization.
 - `results/` — Output data from the 5M event run.
 
-## How to Run
+## How to Run Locally
 
 1. Clone the repository:
 git clone https://github.com/your-username/two-voids-simulation.git
 cd two-voids-simulation
 
+text
+
 2. Install dependencies:
 pip install numpy
 
-3. Run the simulation:
-python simulation.py
+text
 
-4. Analyze the results:
-python analysis.py
+3. Run the notebook:
+jupyter notebook your-notebook.ipynb
+
+text
 
 ## Parameters
 
@@ -56,10 +64,9 @@ python analysis.py
 
 If you use this code in your research, please cite:
 
-- [The Two Voids Model: From Fundamental Ontology to the Mass Spectrum of Elementary Particles](https://doi.org/10.5281/zenodo.XXXXXXXXX) (DOI will be added after Zenodo archiving).
-- [The Two Voids Model (original work)](https://doi.org/10.5281/zenodo.20627691).
+- [The Two Voids Model: From Fundamental Ontology to the Mass Spectrum of Elementary Particles](https://doi.org/10.5281/zenodo.21373978)
+- [The Two Voids Model (original work)](https://doi.org/10.5281/zenodo.20627691)
 
 ## License
 
 This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.
- 
